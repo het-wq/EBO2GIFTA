@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Give an EBO2 consult this holiday | Conscious Medicine</title>
+    <!--
+  Gift 3A: Give an EBO2 consult this holiday
+  Before launch:
+  1. Replace every href="#gift-details" with the gift details page URL.
+  2. Swap the placeholder boxes for real images (the <img> to use is in a comment next to each).
+  3. Settle and delete every yellow .cmg-todo item.
+-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+    <style>
+        /* ==========================================================
+   Gift of Health landing pages
+   Conscious Medicine Brand Guideline 16 (Garden)
+   Every rule is scoped under .cmg so it won't clash with a
+   WordPress theme or GHL page styles.
+   ========================================================== */
+
+        .cmg {
+            --denim: #2E5590;
+            --denim-dark: #1F3E6E;
+            --ink: #1F2636;
+            --ink-soft: #545966;
+            --sage: #546E57;
+            --peony: #B23A5E;
+            --clementine: #C8642E;
+            --apricot: #F4A261;
+            --stone: #F3F1EC;
+            --sage-tint: #E3E9DF;
+            --apricot-tint: #FCEBDD;
+            --blush: #F6DDE3;
+            --mist: #ECEEF0;
+            --hairline: #DADDE3;
+            --white: #FFFFFF;
+
+            font-family: 'Inter', Arial, sans-serif;
+            font-size: 17px;
+            line-height: 1.6;
+            color: var(--ink);
+            background: var(--white);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .cmg *,
+        .cmg *::before,
+        .cmg *::after {
+            box-sizing: border-box;
+        }
+
+        .cmg h1,
+        .cmg h2,
+        .cmg h3,
+        .cmg p,
+        .cmg ul {
+            margin: 0;
+        }
+
+        .cmg a {
+            color: var(--denim);
+        }
+
+        .cmg a:hover {
+            color: var(--denim-dark);
+        }
+
+        /* ---------- Layout ---------- */
+        .cmg-wrap {
+            max-width: 1170px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .cmg-wrap--narrow {
+            max-width: 860px;
+        }
+
+        .cmg-section {
+            padding: 88px 0;
+        }
+
+        /* ---------- Section grounds ---------- */
+        .cmg-bg-white {
+            background: var(--white);
+        }
+
+        .cmg-bg-stone {
+            background: var(--stone);
+        }
+
+        .cmg-bg-denim {
+            background: var(--denim);
+            color: var(--white);
+        }
+
+        .cmg-bg-sage {
+            background: var(--sage);
+            color: var(--white);
+        }
+
+        .cmg-bg-sage-tint {
+            background: var(--sage-tint);
+        }
+
+        .cmg-bg-apricot {
+            background: var(--apricot-tint);
+        }
+
+        .cmg-bg-blush {
+            background: var(--blush);
+        }
+
+        /* ---------- Type ---------- */
+        .cmg-kicker {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            color: var(--denim);
+        }
+
+        .cmg-kicker::before {
+            content: "";
+            flex: none;
+            width: 28px;
+            height: 2px;
+            background: var(--rule, var(--peony));
+        }
+
+        .cmg-kicker--clementine {
+            --rule: var(--clementine);
+        }
+
+        .cmg-kicker--apricot {
+            --rule: var(--apricot);
+            color: var(--white);
+        }
+
+        .cmg-kicker--white {
+            --rule: var(--white);
+            color: var(--white);
+        }
+
+        .cmg-h1 {
+            font-size: 56px;
+            line-height: 1.08;
+            font-weight: 500;
+            letter-spacing: -0.018em;
+        }
+
+        .cmg-h2 {
+            font-size: 40px;
+            line-height: 1.2;
+            font-weight: 500;
+            letter-spacing: -0.015em;
+        }
+
+        .cmg-lead {
+            font-size: 19px;
+            color: var(--ink-soft);
+        }
+
+        .cmg-muted {
+            color: var(--ink-soft);
+        }
+
+        .cmg-small {
+            font-size: 14px;
+            color: var(--ink-soft);
+        }
+
+        /* Highlight for [CONFIRM] / [DECIDE] items. Delete before launch. */
+        .cmg-todo {
+            background: #FFF1B8;
+            color: var(--ink);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        /* ---------- Buttons (4px radius, denim, or white on denim) ---------- */
+        .cmg-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 54px;
+            padding: 0 32px;
+            border: 1.5px solid transparent;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 17px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.15s ease, color 0.15s ease;
+        }
+
+        .cmg .cmg-btn--primary {
+            background: var(--denim);
+            color: var(--white);
+        }
+
+        .cmg .cmg-btn--primary:hover {
+            background: var(--denim-dark);
+            color: var(--white);
+        }
+
+        .cmg .cmg-btn--outline {
+            min-height: 46px;
+            padding: 0 22px;
+            font-size: 15px;
+            border-color: var(--denim);
+            color: var(--denim);
+            background: transparent;
+        }
+
+        .cmg .cmg-btn--outline:hover {
+            background: var(--mist);
+            color: var(--denim);
+        }
+
+        .cmg .cmg-btn--inverse {
+            background: var(--white);
+            color: var(--denim);
+        }
+
+        .cmg .cmg-btn--inverse:hover {
+            background: var(--stone);
+            color: var(--denim);
+        }
+
+        .cmg .cmg-btn:focus-visible {
+            outline: 3px solid var(--apricot);
+            outline-offset: 3px;
+        }
+
+        /* ---------- Header ---------- */
+        .cmg-header {
+            background: var(--white);
+            border-bottom: 1px solid var(--hairline);
+        }
+
+        .cmg-header__inner {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+
+        .cmg-logo {
+            display: block;
+            width: 200px;
+            height: auto;
+        }
+
+        /* ---------- Placeholders (swap for real images) ---------- */
+        .cmg-ph {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            border: 2px dashed var(--hairline);
+            border-radius: 8px;
+            background: var(--white);
+            color: var(--ink-soft);
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .cmg-ph--logo {
+            width: 200px;
+            height: 44px;
+            padding: 0 8px;
+            border-radius: 4px;
+            background: var(--mist);
+            border: 0;
+            font-size: 13px;
+        }
+
+        .cmg-ph--card {
+            width: 100%;
+            aspect-ratio: 3 / 2;
+            line-height: 1.6;
+        }
+
+        /* ---------- Hero ---------- */
+        .cmg-hero__inner {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 56px;
+        }
+
+        .cmg-hero__text {
+            flex: 1 1 460px;
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+        }
+
+        .cmg-hero__media {
+            flex: 1 1 420px;
+            min-width: 0;
+        }
+
+        .cmg-hero__media img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .cmg-hero__points {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .cmg-hero__point {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--ink);
+        }
+
+        .cmg-hero__point::before {
+            content: "";
+            flex: none;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--apricot);
+        }
+
+        .cmg-hero__cta {
+            padding-top: 6px;
+        }
+
+        .cmg-hero__disclaimer {
+            font-size: 13px;
+            line-height: 1.5;
+            color: var(--ink-soft);
+            max-width: 480px;
+            margin-top: -8px;
+        }
+
+        /* ---------- Denim strip with apricot dots ---------- */
+        .cmg-strip {
+            padding: 36px 0;
+        }
+
+        .cmg-strip__label {
+            margin-bottom: 18px;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            color: var(--apricot);
+        }
+
+        .cmg-strip__grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px 40px;
+        }
+
+        .cmg-strip__item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+
+        .cmg-strip__item::before {
+            content: "";
+            flex: none;
+            width: 9px;
+            height: 9px;
+            margin-top: 8px;
+            border-radius: 50%;
+            background: var(--apricot);
+        }
+
+        /* ---------- Section heading block ---------- */
+        .cmg-head {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 36px;
+        }
+
+        .cmg-text {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* ---------- Cards (clementine top rule) ---------- */
+        .cmg-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .cmg-card {
+            background: var(--white);
+            border-top: 3px solid var(--clementine);
+            border-radius: 8px;
+            padding: 28px 32px;
+        }
+
+        .cmg-card h3 {
+            margin-bottom: 8px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.3;
+        }
+
+        .cmg-card p {
+            color: var(--ink-soft);
+        }
+
+        .cmg-panel {
+            margin-top: 20px;
+            background: var(--white);
+            border: 1px solid var(--hairline);
+            border-radius: 8px;
+            padding: 24px 28px;
+        }
+
+        .cmg-panel h3 {
+            margin-bottom: 6px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .cmg-panel p {
+            color: var(--ink-soft);
+        }
+
+        /* ---------- Steps (Box style on light ground) ---------- */
+        .cmg-steps-boxes {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .cmg-step-box {
+            background: var(--white);
+            border: 1px solid var(--hairline);
+            border-top: 3px solid var(--clementine);
+            border-radius: 8px;
+            padding: 28px 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            box-shadow: 0 2px 8px rgba(31, 38, 54, 0.04);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+        }
+
+        .cmg-step-box:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(31, 38, 54, 0.08);
+            border-top-color: var(--denim);
+        }
+
+        .cmg-step-box__num {
+            font-size: 34px;
+            font-weight: 600;
+            line-height: 1;
+            color: var(--clementine);
+            letter-spacing: -0.01em;
+        }
+
+        .cmg-step-box p {
+            font-size: 16px;
+            line-height: 1.55;
+            color: var(--ink);
+            margin: 0;
+        }
+
+        /* ---------- "Who it's for" rows on the sage band ---------- */
+        .cmg-fits {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .cmg-fit {
+            border-top: 1px solid rgba(255, 255, 255, 0.45);
+            padding-top: 18px;
+            font-size: 18px;
+            line-height: 1.55;
+        }
+
+        /* ---------- Be So Well (blush) ---------- */
+        .cmg-promo {
+            padding: 56px 0;
+        }
+
+        .cmg-promo__inner {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        .cmg-promo__text {
+            flex: 1 1 520px;
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .cmg-promo h2 {
+            font-size: 30px;
+            line-height: 1.25;
+            font-weight: 500;
+            letter-spacing: -0.015em;
+        }
+
+        /* ---------- Fine print ---------- */
+        .cmg-fine {
+            padding: 64px 0;
+        }
+
+        .cmg-fine ul {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 18px;
+            padding-left: 20px;
+            font-size: 16px;
+        }
+
+        /* ---------- Closing CTA ---------- */
+        .cmg-cta {
+            padding: 96px 0;
+            text-align: center;
+        }
+
+        .cmg-cta__inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 26px;
+        }
+
+        .cmg-cta h2 {
+            font-size: 42px;
+            line-height: 1.2;
+            font-weight: 500;
+            letter-spacing: -0.015em;
+        }
+
+        /* ---------- Footer ---------- */
+        .cmg-footer {
+            background: var(--stone);
+            color: var(--ink-soft);
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .cmg-footer__inner {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            padding-top: 28px;
+            padding-bottom: 28px;
+        }
+
+        /* ---------- Tablet and phone ---------- */
+        @media (max-width: 768px) {
+            .cmg-section {
+                padding: 64px 0;
+            }
+
+            .cmg-cta {
+                padding: 72px 0;
+            }
+
+            .cmg-fine {
+                padding: 48px 0;
+            }
+
+            .cmg-hero__inner {
+                gap: 36px;
+            }
+
+            .cmg-h1 {
+                font-size: 40px;
+            }
+
+            .cmg-h2,
+            .cmg-cta h2 {
+                font-size: 30px;
+            }
+
+            .cmg-promo h2 {
+                font-size: 26px;
+            }
+
+            .cmg-lead {
+                font-size: 17px;
+            }
+
+            .cmg-card {
+                padding: 24px;
+            }
+
+            .cmg-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .cmg-steps-boxes {
+                grid-template-columns: 1fr;
+                gap: 18px;
+            }
+
+            .cmg-hero__cta .cmg-btn,
+            .cmg-cta .cmg-btn,
+            .cmg-promo .cmg-btn {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .cmg-h1 {
+                font-size: 34px;
+            }
+
+            .cmg-header .cmg-btn--outline {
+                padding: 0 16px;
+            }
+        }
+    </style>
+</head>
+
+<body style="margin:0">
+
+    <div class="cmg">
+
+        <!-- 1. Header -->
+        <header class="cmg-header">
+            <div class="cmg-wrap cmg-header__inner">
+                <!-- <img class="cmg-logo" src="cmed-logo-landscape-ink.svg" alt="Conscious Medicine"> -->
+                <div class="cmg-ph cmg-ph--logo">[CMed logo · ink]</div>
+                <a class="cmg-btn cmg-btn--outline" href="#gift-details">Send the gift</a>
+            </div>
+        </header>
+
+        <main>
+
+            <!-- 2. Hero · stone -->
+            <section class="cmg-section cmg-bg-stone">
+                <div class="cmg-wrap cmg-hero__inner">
+                    <div class="cmg-hero__text">
+                        <p class="cmg-kicker cmg-kicker--peony">Give the gift of health</p>
+                        <h1 class="cmg-h1">Give an EBO2 consult this holiday</h1>
+                        <p class="cmg-lead">A gift for someone who’s been reading about EBO2. They get 75 minutes with Dr. Truc Nguyen, MD, and a straight answer about whether it’s right for them.</p>
+                        <ul class="cmg-hero__points">
+                            <li class="cmg-hero__point">75-minute consult with Dr. Nguyen</li>
+                            <li class="cmg-hero__point">Monitored by an MD, a nurse and an MA</li>
+                            <li class="cmg-hero__point">2955 Bethany Bend, Alpharetta</li>
+                        </ul>
+                        <div class="cmg-hero__cta">
+                            <a class="cmg-btn cmg-btn--primary" href="#gift-details">Send the gift</a>
+                        </div>
+                        <p class="cmg-hero__disclaimer">EBO2 is not FDA-approved to treat any disease or condition, and the equipment is not FDA-cleared. Not covered by insurance.</p>
+                    </div>
+                    <div class="cmg-hero__media">
+                        <!-- <img src="ebo2-gift-card.png" alt="Give an EBO2 consult this holiday gift card"> -->
+                        <div class="cmg-ph cmg-ph--card">[Gift card image]</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. Why it's a consult · white -->
+            <section class="cmg-section cmg-bg-white">
+                <div class="cmg-wrap cmg-wrap--narrow cmg-text">
+                    <p class="cmg-kicker">Why it’s a consult</p>
+                    <h2 class="cmg-h2">Why we gift the consult, not the session</h2>
+                    <p class="cmg-muted">EBO2 isn’t right for everyone. Pregnancy, an organ transplant, a bleeding condition and several common medications can rule it out or need review first. So the gift is the conversation. Dr. Nguyen goes through your person’s history, medications and recent labs, and says yes, not yet, or no. If it’s no, the credit doesn’t go to waste: it can be used on other services at Conscious Medicine. <span class="cmg-todo">[CONFIRM: which ones — IV therapy, peptides?]</span></p>
+                </div>
+            </section>
+
+            <!-- 4. What they get · apricot -->
+            <section class="cmg-section cmg-bg-apricot">
+                <div class="cmg-wrap">
+                    <div class="cmg-head">
+                        <p class="cmg-kicker cmg-kicker--clementine">What they get</p>
+                        <h2 class="cmg-h2">A consult, a bonus, and a card</h2>
+                    </div>
+                    <div class="cmg-cards">
+                        <div class="cmg-card">
+                            <h3>A 75-minute consult</h3>
+                            <p>With Dr. Nguyen ($597 value).</p>
+                        </div>
+                        <div class="cmg-card">
+                            <h3>Black Friday bonus</h3>
+                            <p><span class="cmg-todo">$[BONUS]</span> credit toward sessions or other services, use by March 31, 2027.</p>
+                        </div>
+                        <div class="cmg-card">
+                            <h3>A card for them</h3>
+                            <p>A printable card, or one emailed on the date you choose.</p>
+                        </div>
+                    </div>
+                    <div class="cmg-panel">
+                        <h3>Optional add-on</h3>
+                        <p>Add credit toward sessions. Single sessions start at $1,697, and 3 sessions start at $4,797. Sessions are booked only if Dr. Nguyen recommends them.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5. How the gift works · white -->
+            <section class="cmg-section cmg-bg-white" id="how-it-works">
+                <div class="cmg-wrap">
+                    <div class="cmg-head">
+                        <p class="cmg-kicker cmg-kicker--clementine">How the gift works</p>
+                        <h2 class="cmg-h2">Three steps from gift to answer</h2>
+                    </div>
+                    <div class="cmg-steps-boxes">
+                        <div class="cmg-step-box">
+                            <span class="cmg-step-box__num">01</span>
+                            <p>Choose the gift and who it's for.</p>
+                        </div>
+                        <div class="cmg-step-box">
+                            <span class="cmg-step-box__num">02</span>
+                            <p>We email them, or you print the card.</p>
+                        </div>
+                        <div class="cmg-step-box">
+                            <span class="cmg-step-box__num">03</span>
+                            <p>They call or book a quick 15-minute call, and we schedule the consult.</p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 36px;">
+                        <span class="cmg-todo">[CONFIRM: EBO2 path = 15-min call first, or straight to the 75-min consult?]</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. Fine print · sage tint -->
+            <section class="cmg-fine cmg-bg-sage-tint">
+                <div class="cmg-wrap cmg-wrap--narrow">
+                    <p class="cmg-kicker cmg-kicker--clementine">Fine print</p>
+                    <ul>
+                        <li>The purchased value doesn’t expire within 5 years of purchase. Bonus credit expires March 31, 2027, has no cash value and can’t be combined with other offers. <span class="cmg-todo">[CONFIRM: confirm Georgia gift-card terms]</span></li>
+                        <li>EBO2 is not FDA-approved to treat any disease or condition, and the equipment used is not FDA-cleared.</li>
+                        <li>Not covered by insurance.</li>
+                        <li>Gift purchases can’t be returned for cash. <span class="cmg-todo">[DECIDE]</span></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 7. Closing CTA · denim -->
+            <section class="cmg-cta cmg-bg-denim">
+                <div class="cmg-wrap cmg-wrap--narrow cmg-cta__inner">
+                    <h2>This year, give someone a real look at their health.</h2>
+                    <a class="cmg-btn cmg-btn--inverse" href="#gift-details">Send the gift</a>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- 8. Footer · stone -->
+        <footer class="cmg-footer">
+            <div class="cmg-wrap cmg-footer__inner">
+                <span>CMed Nguyen · 2955 Bethany Bend #200, Alpharetta, GA 30004 · <a
+                        href="tel:+16782617879">(678) 261-7879</a></span>
+                <span><a href="#">Privacy policy</a> · <a href="#">Gift terms</a></span>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
